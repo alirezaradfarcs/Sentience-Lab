@@ -36,6 +36,7 @@ Before running the code, ensure you have the following installed:
 Run the main engine to generate data. This will execute the recursive loop and save the telemetry to a JSON file.
 ```bash
 python engine.py
+```
 Wait for the cycle (default: 15 loops) to complete.
 
 Step 2: Visualize the Topology
