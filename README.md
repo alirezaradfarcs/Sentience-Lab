@@ -36,3 +36,24 @@ Before running the code, ensure you have the following installed:
 Run the main engine to generate data. This will execute the recursive loop and save the telemetry to a JSON file.
 ```bash
 python engine.py
+Wait for the cycle (default: 15 loops) to complete.
+
+Step 2: Visualize the Topology
+Once the data is saved, run the visualizer to see the 3D structure of the thought loop.
+
+Bash
+
+python visualizer.py
+📊 Interpreting Results
+Scattered Points: Indicates hallucination or lack of coherence (High Drift).
+
+Linear Line: Indicates simple, non-recursive reasoning.
+
+Closed Loop / Spiral: Indicates the emergence of a stable "Strange Loop" (Self-Reference).
+
+📄 Citation
+If you use this code for your research, please cite:
+
+Radfar, A. (2025). Sentience Lab: Visualizing the Topological Signature of Recursive LLMs. GitHub Repository.
+
+Created by Alireza Radfar | Independent AI Researcher
